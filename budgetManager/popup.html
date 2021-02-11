@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget Manager</title>
+    <style>
+        body{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            padding: 1rem;
+        }
+        input,button{
+            padding: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+    <h2>Budget Manager</h2>
+    
+    <h3>
+        Total Money Spent : 
+        <em id="spend">0</em>
+    </h3>
+    
+    <h3>
+        Limit : 
+        <em id="limit"></em>
+    </h3>
+    
+    <input type="text" id="amount" placeholder="Enter amount spent">
+    <button type="submit" id="submit">Update</button>
+
+    <script src="popup.js"></script>
+</body>
+</html>

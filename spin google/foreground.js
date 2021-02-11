@@ -1,0 +1,1 @@
+document.querySelector('#hplogo').classList.add('spin');

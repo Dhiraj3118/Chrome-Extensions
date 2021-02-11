@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget Manager Options</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        div{
+            margin-top: 5rem;
+            border: 2px solid grey;
+            border-radius: 5px;
+            padding: 2rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        div > * {
+            width: 20rem;
+            padding: 0.5rem;
+            box-sizing: border-box;
+            font-size: 1rem;
+        }
+        input{
+            margin-bottom: 0.5rem;
+            border: 2px solid black;
+        }
+        button{
+            color: white;
+            background-color: black;
+            border: none;
+            border-radius: 10px;
+            outline: none;
+            margin-top: 0.5rem;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Budget Manager Options</h1>
+    
+    <div>
+        <label for="limit">Set Maximum Limit</label>
+        <input type="text" id="limit" placeholder="Set limit">
+        <button id="setLimit">Set Limit</button>
+        
+        <button id="resetTotal">Reset Spend Amount</button>
+    </div>
+    
+    <script src="options.js"></script>
+</body>
+</html>

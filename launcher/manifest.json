@@ -1,0 +1,12 @@
+{
+    "manifest_version" : 2,
+    "name" : "Launcher",
+    "description" : "Launch your youtube, insta, FB, twitter and much more with just a click",
+    "version" : "1.0.0",
+    "browser_action" : {
+        "default_popup" : "popup.html"
+    },
+    "permissions" : [
+        "activeTab"
+    ]
+}

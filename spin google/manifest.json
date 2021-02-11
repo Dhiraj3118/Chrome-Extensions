@@ -1,0 +1,21 @@
+{
+    "manifest_version" : 2,
+    "name" : "Spin Google",
+    "description" : "Spins google logo",
+    "version" : "1.0.0",
+
+    "browser_action" : {
+        "default_popup" : "popup.html"
+    },
+
+    "options_page" : "options.html",
+
+    "background" : {
+        "scripts" : ["background.js"]
+    },
+
+    "permissions" : [
+        "tabs",
+        "https://www.google.com/"
+    ]
+}
